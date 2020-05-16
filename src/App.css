@@ -1,111 +1,36 @@
 .Nav {
-  width: 100vw;
-  height: 15vh;
   background-color: lightskyblue;
-  display: flex;
+  padding: 40px 60px;
 }
-
-.Home {
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  font-weight: bolder;
-  position: relative;
-  left: 50px;
-  top: 10px;
+body {
+background-color: black;
 }
-
-.Main {
-  background-color: black;
-  width: 100vw;
-  height: 85vh;
-  display: flex;
-}
-
 .Data {
   background-color: white;
-  width: 80vw;
-  height: 50vh;
+  width: 60vw;
+  padding: 20px 40px;
+  margin: 100px auto 20px auto;
   position: relative;
-  bottom: 525px;
-  left: 150px;
-  text-align: center;
-  color: black;
 }
-.h1 {
-position: relative;
-left: 500px;
-font-weight: bolder;
-font-size: 25px;
+.Data p {
+  font-size: 18px;
 }
-.total {
-  position: relative;
-  left: 525px;
-  bottom: 54px;
-  font-weight: bolder;
+p.userNum {
+  position: absolute;
+  top: -20px;
+  right: 15px;
   font-size: 25px;
 }
 .name {
-  position: relative;
-  right: 400px;
-  bottom: 50px;
-  font-weight: bolder;
-  font-size: 35px;
   text-decoration: lightskyblue underline;
 }
-.from {
-  position: relative;
-  font-weight: bolder;
-  right: 415px;
-  bottom: 40px;
+.flex{
+  display: flex;
+  justify-content: space-around;
 }
-.location {
-  position: relative;
-  right: 415px;
-  bottom: 39px;
-}
-.title {
-  position: relative;
-  right: 391px;
-  bottom: 50px;
-  font-weight: bolder;
-}
-.job {
-  position: relative;
-  right: 387px;
-  bottom: 48px;
-}
-.employer {
-  position: relative;
-  right: 453px;
-  bottom: 60px;
-  font-weight: bolder;
-}
-.employer-name {
-position: relative;
-right: 450px;
-bottom: 60px;
-}
-.movies {
-  position: relative;
-  right: 460px;
-  bottom: 50px;
-  font-weight: bolder;
-}
-.list {
-  position: relative;
-  bottom: 60px;
-  right: 330px;
-}
-.previous {
-  position: relative;
-  text-decoration: none;
-  bottom: 525px;
-  left: 150px;
-}
-.next {
-  position: relative;
-  text-decoration: none;
-  bottom: 525px;
-  left: 1200px;
+.button {
+background-color: transparent;
+color: white;
+border: 0px;
+font-size: 20px;
 }

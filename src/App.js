@@ -43,12 +43,13 @@ class App extends Component {
             <div className="Nav">
               <Nav />
             </div>
-            <div className="Main"></div>
             <div className="Data">
               <User userData={elem} />
             </div>
-            <button className={'previous'} onClick={this.onPrevious}>Previous</button>
-            <button className={'next'} onClick={this.onNext}>Next</button>
+            <div className='flex'>
+             <button className={'button previous'} onClick={this.onPrevious}>&lt; Previous</button>
+              <button className={'button next'} onClick={this.onNext}>Next &gt;</button>
+            </div>
           </div>
         );
       }
