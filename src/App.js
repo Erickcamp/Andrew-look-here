@@ -39,7 +39,7 @@ class App extends Component {
     const userInfo = this.state.userInfo.map((elem, index) => {
       if (this.state.currentIndex === index) {
         return (
-          <div>
+          <div className={'main-container'}>
             <div className="Nav">
               <Nav />
             </div>
@@ -47,8 +47,8 @@ class App extends Component {
             <div className="Data">
               <User userData={elem} />
             </div>
-            <button onClick={this.onPrevious}>Previous</button>
-            <button onClick={this.onNext}>Next</button>
+            <button className={'previous'} onClick={this.onPrevious}>Previous</button>
+            <button className={'next'} onClick={this.onNext}>Next</button>
           </div>
         );
       }
